@@ -1,0 +1,89 @@
+#foodTable {
+    border: solid 3px #232323;
+    width: 600px;
+    table-layout: fixed;
+    left: 800px;
+    margin: 10px;
+    background-color: #76cc7d;
+    top: 200px;
+}
+.scrollDiv {
+    width: 650px;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#foodTable th, #foodTable td{
+    border: solid 1px #232323;
+}
+
+td {
+    width: 150px;
+    word-wrap: break-word;
+    font-family: helvetica, arial, sans-serif;
+}
+
+body {
+    background-color: #F3C18C;
+}
+
+#header {
+    height:50px;
+    background: #626262;
+    width: 1430px;
+    margin: 0px auto;
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ffdaa8;
+}
+
+#foodForm {
+    margin: 10px;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -50px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.site-footer, .page-wrap:after {
+    /* .push must be the same height as footer */
+    height: 50px;
+}
+.site-footer {
+    background: #586A6A;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollDiv::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.scrollDiv::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7);
+}
+
+#tableHolder {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    background-color: burlywood;
+    width: 650px;
+    align-content: center;
+    border: inset;
+}
